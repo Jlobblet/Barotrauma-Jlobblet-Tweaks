@@ -2,4 +2,7 @@
 <contentpackage name="Jlobblet's Tweaks" path="Mods/JlobbletTweaks/filelist.xml" corepackage="false" gameversion="0.12.0.2">
     <Items file="Mods/JlobbletTweaks/Content/Items/Diving/divinggear.xml"/>
     <Items file="Mods/JlobbletTweaks/Content/Items/Tools/tools.xml"/>
+    <Items file="Mods/JlobbletTweaks/Content/Items/Medical/buffs.xml"/>
+    <Items file="Mods/JlobbletTweaks/Content/Items/Medical/medical.xml"/>
+    <Items file="Mods/JlobbletTweaks/Content/Items/Medical/poisons.xml"/>
 </contentpackage>
