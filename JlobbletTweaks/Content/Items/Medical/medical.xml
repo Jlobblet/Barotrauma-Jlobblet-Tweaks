@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Diff file="Content/Items/Medical/medical.xml" override="all" cleanup="true">
+<Diff file="Content/Items/Medical/medical.xml" override="root" cleanup="true">
     <!-- Make meds stack to 4 -->
     <replace sel="//*/@maxstacksize">4</replace>
+    <!-- Fix sprites -->
+    <replace sel="//Sprite/@texture">Content/Items/Medical/Medicines.png</replace>
 </Diff>
