@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Diff file="Content/Items/Diving/divinggear.xml" override="root" cleanup="true">
+<Diff file="Content/Items/Diving/divinggear.xml" override="all" cleanup="true">
     <!-- Half oxygen consumption rate -->
     <replace sel="//Item[@identifier='divingmask']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.25</replace>
     <replace sel="//Item[@identifier='divingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.15</replace>

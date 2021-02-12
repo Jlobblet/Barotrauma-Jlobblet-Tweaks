@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Diff file="Content/Items/Tools/tools.xml" override="root" cleanup="true">
+<Diff file="Content/Items/Tools/tools.xml" override="all" cleanup="true">
     <!-- Set oxygen and welding fuel tanks to not stack -->
     <replace sel="//Item[@identifier='weldingfueltank']/@maxstacksize">1</replace>
     <replace sel="//Item[@identifier='incendiumfueltank']/@maxstacksize">1</replace>
