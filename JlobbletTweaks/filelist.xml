@@ -5,4 +5,5 @@
     <Items file="Mods/JlobbletTweaks/Content/Items/Medical/buffs.xml"/>
     <Items file="Mods/JlobbletTweaks/Content/Items/Medical/medical.xml"/>
     <Items file="Mods/JlobbletTweaks/Content/Items/Medical/poisons.xml"/>
+    <Items file="Mods/JlobbletTweaks/Content/Items/Weapons/weapons.xml"/>
 </contentpackage>

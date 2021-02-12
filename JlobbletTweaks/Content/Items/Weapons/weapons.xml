@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Content/Items/Weapons/weapons.xml" override="root" cleanup="true">
+    <!-- Make revolver rounds stack to 24 (4 usages) -->
+    <replace sel="//Item[@identifier='revolverround']/@maxstacksize">12</replace>
+    <!-- Make grenades stack to 4 (4 usages for 40mm, seems good enough for handheld ones too) -->
+    <replace sel="//Item[ends-with(@identifier, 'grenade')]/@maxstacksize">4</replace>
+    <!-- Make shotgun shells stack to 18 (3 usages) -->
+    <replace sel="//Item[@identifier='shotgunshell']/@maxstacksize">12</replace>
+    <!-- Make stun gun darts stack to 6 (3 usages) -->
+    <replace sel="//Item[@identifier='stungundart']/@maxstacksize">6</replace>
+    <!-- Make harpoons stack to 6 (1 usage) -->
+    <replace sel="//Item[contains(@identifier, 'spear')]/@maxstacksize">6</replace>
+</Diff>
