@@ -4,7 +4,7 @@
     <replace sel="//*[@identifier='railgunshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="250"/>
         <Affliction identifier="bleeding" strength="100"/>
-        <Affliction identifier="stun" strength="95"/>
+        <Affliction identifier="stun" strength="15"/>
     </replace>
     <!-- Nuclear shell -->
     <replace sel="//*[@identifier='nuclearshell']/Projectile/Attack">
@@ -20,7 +20,7 @@
     <replace sel="//*[@identifier='alienshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="500"/>
         <Affliction identifier="bleeding" strength="150"/>
-        <Affliction identifier="stun" strength="95"/>
+        <Affliction identifier="stun" strength="15"/>
     </replace>
     <replace sel="//*[@identifier='alienshell']/Projectile/@maxtargetstohit">5</replace>
     <!-- Fix sprites -->
