@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Content/Items/Alien/alienitems.xml" override="all" cleanup="true">
+    <!-- Make the alien pistol a bit stronger -->
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Explosion/@force">10</replace>
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Explosion/@camerashake">24.0</replace>
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Explosion/@shockwave">true</replace>
+
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Affliction[@identifier='burn']/@amount">2</replace>
+    <!-- Ammo changes -->
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@type='OnUse' and @target='Contained']/@Condition">-2.5</replace>
+    <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@type='OnFailure' and @target='Contained']/@Condition">-2.5</replace>
+    <!-- Fix sprite -->
+    <replace sel="//Item[@identifier='alienpistol']/Sprite/@texture | //Item[@identifier='alienpistol']/InventoryIcon/@texture">Content/Items/Alien/alientools.png</replace>
+</Diff>

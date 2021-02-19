@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Jlobblet's Tweaks" path="Mods/JlobbletTweaks/filelist.xml" corepackage="false" gameversion="0.12.0.2">
+<contentpackage name="Jlobblet's Tweaks" path="Mods/JlobbletTweaks/filelist.xml" corepackage="false" gameversion="0.12.0.3">
     <Item file="Mods/JlobbletTweaks/Content/Items/Diving/divinggear.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Tools/tools.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Medical/buffs.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Medical/medical.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Medical/poisons.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Weapons/weapons.xml"/>
+    <Item file="Mods/JlobbletTweaks/Content/Items/Alien/alienitems.xml"/>
 </contentpackage>
