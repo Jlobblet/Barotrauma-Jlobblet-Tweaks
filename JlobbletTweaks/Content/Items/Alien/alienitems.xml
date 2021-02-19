@@ -6,6 +6,10 @@
     <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Explosion/@shockwave">true</replace>
 
     <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@target='UseTarget']/Affliction[@identifier='burn']/@amount">2</replace>
+
+    <add sel="//Item[@identifier='alienpistol']/RepairTool">
+        <RequiredSkill identifier="weapons" level="40"/>
+    </add>
     <!-- Ammo changes -->
     <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@type='OnUse' and @target='Contained']/@Condition">-2.5</replace>
     <replace sel="//Item[@identifier='alienpistol']/RepairTool/StatusEffect[@type='OnFailure' and @target='Contained']/@Condition">-2.5</replace>
