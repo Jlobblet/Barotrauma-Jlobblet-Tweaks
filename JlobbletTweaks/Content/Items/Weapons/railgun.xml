@@ -6,7 +6,7 @@
         <Affliction identifier="bleeding" strength="100"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
-    <replace sel="//*[@identifier='alienshell']/Projectile/@maxtargetstohit">7</replace>
+    <replace sel="//*[@identifier='railgunshell']/Projectile/@maxtargetstohit">3</replace>
     <!-- Nuclear shell -->
     <replace sel="//*[@identifier='nuclearshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="250"/>
@@ -15,7 +15,7 @@
         <Affliction identifier="burn" strength="500"/>
         <Affliction identifier="radiationsickness" strength="100"/>
         <Affliction identifier="explosiondamage" strength="500"/>
-        <Affliction identifier="stun" strength="100"/>
+        <Affliction identifier="stun" strength="15"/>
     </replace>
     <!-- Physocorium shell -->
     <replace sel="//*[@identifier='alienshell']/Projectile/Attack">
@@ -23,7 +23,7 @@
         <Affliction identifier="bleeding" strength="150"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
-    <replace sel="//*[@identifier='alienshell']/Projectile/@maxtargetstohit">10</replace>
+    <replace sel="//*[@identifier='alienshell']/Projectile/@maxtargetstohit">4</replace>
     <!-- Fix sprites -->
     <replace sel="//*[@identifier='railgunshell' or @identifier='nuclearshell' or @identifier='alienshell']/Sprite/@texture">Content/Items/Weapons/TurretsAndDepthCharges.png</replace>
 </Diff>
