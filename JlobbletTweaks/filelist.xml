@@ -7,4 +7,6 @@
     <Item file="Mods/JlobbletTweaks/Content/Items/Medical/poisons.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Weapons/weapons.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Alien/alienitems.xml"/>
+    <Item file="Mods/JlobbletTweaks/Content/Items/Weapons/coilgun.xml"/>
+    <Item file="Mods/JlobbletTweaks/Content/Items/Weapons/railgun.xml"/>
 </contentpackage>
