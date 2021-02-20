@@ -1,0 +1,25 @@
+[b]Jlobblet Tweaks[/b] is a collection of changes to vanilla items aimed at adjusting the vanilla balance of power.
+
+[h2]Stacking Changes[/h2]
+Several classes of items have been adjusted to stack to different amounts:
+[list]
+  [*] Medical items such as poisons, buffs, and healing items now stack to 4.
+  [*] Oxygen, oxygenite, welding, and incendium tanks stack to 1. Oxygen tanks last twice as long in diving suits and diving masks to accommodate this change/
+  [*] Ammo stacks to various amounts. [list]
+    [*] Revolver rounds stack to 24
+    [*] Grenades stack to 4
+    [*] Shotgun shells stack to 18
+    [*] Stun gun darts stack to 6
+    [*] Harpoons stack to 6
+  [/list]
+[/list]
+
+[h2]Weapon Changes[/h2]
+Railguns have been significantly buffed. Normal and physicorium shells can now penetrate armour, making it easier to take out bulky enemies like molochs.
+
+Piercing ammo has been nerfed and physicorium ammo has been buffed to make the harder to acquire ammo more powerful.
+
+The alien pistol has been souped up to give it a bit more of a punch.
+
+[h2]Special Thanks[/h2]
+Special thanks to Soup Girl for helping with the mod preview image.
