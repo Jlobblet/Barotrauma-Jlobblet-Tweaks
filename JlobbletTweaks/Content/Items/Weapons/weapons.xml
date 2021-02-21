@@ -10,6 +10,9 @@
     <replace sel="//Item[@identifier='stungundart']/@maxstacksize">6</replace>
     <!-- Make harpoons stack to 6 (1 usage) -->
     <replace sel="//Item[contains(@identifier, 'spear')]/@maxstacksize">6</replace>
+    <!-- Re-add 6 slots in harpoon gun -->
+    <replace sel="//Item[@identifier='harpoongun']/ItemContainer/@capacity">6</replace>
+    <replace sel="//Item[@identifier='harpoongun']/ItemContainer/@maxstacksize">1</replace>
     <!-- Fix sprites -->
-    <replace sel="//Item[@identifier='revolverround' or contains(@identifier, 'grenade') or @identifier='shotgunshell' or @identifier='stungundart' or contains(@identifier, 'spear')]/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
+    <replace sel="//Item[@identifier='revolverround' or contains(@identifier, 'grenade') or @identifier='shotgunshell' or @identifier='stungundart' or contains(@identifier, 'spear') or @identifier='harpoongun']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
 </Diff>
