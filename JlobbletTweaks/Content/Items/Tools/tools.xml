@@ -8,4 +8,6 @@
     <!-- Give syringe gun 4 slots -->
     <replace sel="//Item[@identifier='syringegun']/ItemContainer/@capacity">4</replace>
     <replace sel="//Item[@identifier='syringegun']/ItemContainer/@maxstacksize">1</replace>
+    <!-- Fix sprites -->
+    <replace sel="//Item[@identifier='incendiumfueltank']/Sprite/@texture">Content/Items/Tools/tools.png</replace>
 </Diff>
