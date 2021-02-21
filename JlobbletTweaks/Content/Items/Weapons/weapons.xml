@@ -16,6 +16,12 @@
     <!-- Re-add 6 slots in revolver -->
     <replace sel="//Item[@identifier='revolver']/ItemContainer/@capacity">6</replace>
     <replace sel="//Item[@identifier='revolver']/ItemContainer/@maxstacksize">1</replace>
+    <!-- Re-add 6 slots to the shotgun -->
+    <replace sel="//Item[@identifier='shotgun']/ItemContainer/@capacity">6</replace>
+    <replace sel="//Item[@identifier='shotgun']/ItemContainer/@maxstacksize">1</replace>
+    <!-- 2 slots for the boomstick -->
+    <replace sel="//Item[@identifier='shotgununique']/ItemContainer/@capacity">2</replace>
+    <replace sel="//Item[@identifier='shotgununique']/ItemContainer/@maxstacksize">1</replace>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='revolverround']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
     <replace sel="//Item[contains(@identifier, 'grenade')]/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
@@ -24,4 +30,5 @@
     <replace sel="//Item[contains(@identifier, 'spear')]/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
     <replace sel="//Item[@identifier='harpoongun']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
     <replace sel="//Item[@identifier='revolver']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
+    <replace sel="//Item[@identifier='shotgun']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
 </Diff>
