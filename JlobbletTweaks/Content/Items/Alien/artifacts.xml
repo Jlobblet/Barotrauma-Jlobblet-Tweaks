@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Content/Items/Alien/alienitems.xml" override="all" cleanup="true">
+    <remove sel="//Item[contains(@identifier, 'artifact') and not(@identifier='artifactholder')]/Body/@radius"/>
+    <add sel="//Item[contains(@identifier, 'artifact') and not(@identifier='artifactholder')]/Body/@width">45</add>
+    <add sel="//Item[contains(@identifier, 'artifact') and not(@identifier='artifactholder')]/Body/@height">45</add>
+</Diff>
