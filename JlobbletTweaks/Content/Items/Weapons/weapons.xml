@@ -4,7 +4,7 @@
     <replace sel="//Item[@identifier='revolverround']/@maxstacksize">24</replace>
     <!-- Make grenades stack to 4 (4 usages for 40mm, seems good enough for handheld ones too) -->
     <replace sel="//Item[contains(@identifier, 'grenade')]/@maxstacksize">4</replace>
-    <!-- Make shotgun shells stack to 18 (3 usages) -->
+    <!-- Make shotgun shells stack to 12 (2 usages) -->
     <replace sel="//Item[@identifier='shotgunshell']/@maxstacksize">12</replace>
     <!-- Make stun gun darts stack to 6 (3 usages) -->
     <replace sel="//Item[@identifier='stungundart']/@maxstacksize">6</replace>
@@ -13,6 +13,9 @@
     <!-- Re-add 6 slots in harpoon gun -->
     <replace sel="//Item[@identifier='harpoongun']/ItemContainer/@capacity">6</replace>
     <replace sel="//Item[@identifier='harpoongun']/ItemContainer/@maxstacksize">1</replace>
+    <!-- Re-add 6 slots in revolver -->
+    <replace sel="//Item[@identifier='revolver']/ItemContainer/@capacity">6</replace>
+    <replace sel="//Item[@identifier='revolver']/ItemContainer/@maxstacksize">1</replace>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='revolverround' or contains(@identifier, 'grenade') or @identifier='shotgunshell' or @identifier='stungundart' or contains(@identifier, 'spear') or @identifier='harpoongun']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
 </Diff>
