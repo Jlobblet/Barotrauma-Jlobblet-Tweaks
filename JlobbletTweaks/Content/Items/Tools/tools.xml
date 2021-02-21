@@ -5,4 +5,7 @@
     <replace sel="//Item[@identifier='incendiumfueltank']/@maxstacksize">1</replace>
     <replace sel="//Item[@identifier='oxygentank']/@maxstacksize">1</replace>
     <replace sel="//Item[@identifier='oxygenitetank']/@maxstacksize">1</replace>
+    <!-- Give syringe gun 4 slots -->
+    <replace sel="//Item[@identifier='syringegun']/ItemContainer/@capacity">4</replace>
+    <replace sel="//Item[@identifier='syringegun']/ItemContainer/@maxstacksize">1</replace>
 </Diff>
