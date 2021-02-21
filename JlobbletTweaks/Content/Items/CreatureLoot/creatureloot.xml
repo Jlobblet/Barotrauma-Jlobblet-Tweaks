@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Content/Items/CreatureLoot/creatureloot.xml" override="root" cleanup="true">
+    <!-- Make alien blood stack to 4 -->
+    <replace sel="//Item[@identifier='alienblood']/@maxstacksize">4</replace>
+    <!-- Also nerf it -->
+    <replace sel="//Item[@identifier='alienblood']/MeleeWeapon/StatusEffect[@type='OnUse']/ReduceAffliction[@identifier='bloodloss']/@amount">6</replace>
+    <replace sel="//Item[@identifier='alienblood']/MeleeWeapon/StatusEffect[@type='OnFailure']/ReduceAffliction[@identifier='bloodloss']/@amount">3</replace>
+</Diff>
