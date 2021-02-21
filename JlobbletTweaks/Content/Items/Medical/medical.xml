@@ -2,6 +2,8 @@
 <Diff file="Content/Items/Medical/medical.xml" override="root" cleanup="true">
     <!-- Make meds stack to 4 -->
     <replace sel="//*/@maxstacksize">4</replace>
+    <!-- Make bandages and plastiseal stack to 8 -->
+    <replace sel="//*[@identifier='antibleeding1' or @identifier='antibleeding2']/@maxstacksize">8</replace>
     <!-- Fix sprites -->
     <replace sel="//Sprite/@texture">Content/Items/Medical/Medicines.png</replace>
 </Diff>
