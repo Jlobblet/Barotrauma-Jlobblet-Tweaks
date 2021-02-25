@@ -11,4 +11,5 @@
     <Item file="Mods/JlobbletTweaks/Content/Items/Weapons/railgun.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/CreatureLoot/creatureloot.xml"/>
     <Item file="Mods/JlobbletTweaks/Content/Items/Alien/artifacts.xml"/>
+    <Item file="Mods/JlobbletTweaks/Content/Items/Jobgear/Mechanic/mechanic_gear.xml"/>
 </contentpackage>
