@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Diff file="Content/Items/Jobgear/Mechanic/mechanic_gear.xml" override="root" cleanup="true">
     <!-- Make mechanic clothes give lacerations resistance instead of burns -->
-    <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@afflictiontypes">lacerations</replace>
+    <remove sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@afflictiontypes"/>
+    <add sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@afflictionidentifiers">lacerations</add>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']//sprite[@texture='mechanic_torso_[GENDER]_1.png']/@texture">Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_1.png</replace>
     <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']//sprite[@texture='mechanic_legs_[GENDER]_1.png']/@texture">Content/Items/Jobgear/Mechanic/mechanic_legs_[GENDER]_1.png</replace>
