@@ -17,7 +17,7 @@
         <Affliction identifier="explosiondamage" strength="500"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
-    <!-- Physocorium shell -->
+    <!-- Physicorium shell -->
     <replace sel="//*[@identifier='alienshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="500"/>
         <Affliction identifier="bleeding" strength="150"/>
