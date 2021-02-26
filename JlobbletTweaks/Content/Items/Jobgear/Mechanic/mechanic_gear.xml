@@ -3,6 +3,7 @@
     <!-- Make mechanic clothes give lacerations resistance instead of burns -->
     <remove sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@afflictiontypes"/>
     <add sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@afflictionidentifiers">lacerations</add>
+    <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']/Wearable/damagemodifier/@damagemultiplier">0.7</replace>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']//sprite[@texture='mechanic_torso_[GENDER]_1.png']/@texture">Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_1.png</replace>
     <replace sel="//Item[@identifier='bluejumpsuit1' or @identifier='bluejumpsuit2']//sprite[@texture='mechanic_legs_[GENDER]_1.png']/@texture">Content/Items/Jobgear/Mechanic/mechanic_legs_[GENDER]_1.png</replace>
