@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Diff file="Content/Items/Weapons/railgun.xml" override="all" cleanup="true">
     <!-- Railgun shell -->
-    <replace sel="//*[@identifier='railgunshell']/Projectile/Attack">
+    <replace sel="//Item[@identifier='railgunshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="250"/>
         <Affliction identifier="bleeding" strength="100"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
-    <replace sel="//*[@identifier='railgunshell']/Projectile/@maxtargetstohit">3</replace>
+    <replace sel="//Item[@identifier='railgunshell']/Projectile/@maxtargetstohit">3</replace>
     <!-- Nuclear shell -->
-    <replace sel="//*[@identifier='nuclearshell']/Projectile/Attack">
+    <replace sel="//Item[@identifier='nuclearshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="250"/>
     </replace>
-    <replace sel="//*[@identifier='nuclearshell']/Projectile/StatusEffect[@type='OnUse']/Explosion">
+    <replace sel="//Item[@identifier='nuclearshell']/Projectile/StatusEffect[@type='OnUse']/Explosion">
         <Affliction identifier="burn" strength="500"/>
         <Affliction identifier="radiationsickness" strength="100"/>
         <Affliction identifier="explosiondamage" strength="500"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
     <!-- Physicorium shell -->
-    <replace sel="//*[@identifier='alienshell']/Projectile/Attack">
+    <replace sel="//Item[@identifier='alienshell']/Projectile/Attack">
         <Affliction identifier="lacerations" strength="500"/>
         <Affliction identifier="bleeding" strength="150"/>
         <Affliction identifier="stun" strength="15"/>
     </replace>
-    <replace sel="//*[@identifier='alienshell']/Projectile/@maxtargetstohit">4</replace>
+    <replace sel="//Item[@identifier='alienshell']/Projectile/@maxtargetstohit">4</replace>
     <!-- Fix sprites -->
-    <replace sel="//*[@identifier='railgunshell' or @identifier='nuclearshell' or @identifier='alienshell']/Sprite/@texture">Content/Items/Weapons/TurretsAndDepthCharges.png</replace>
+    <replace sel="//Item[@identifier='railgunshell' or @identifier='nuclearshell' or @identifier='alienshell']/Sprite/@texture">Content/Items/Weapons/TurretsAndDepthCharges.png</replace>
 </Diff>
