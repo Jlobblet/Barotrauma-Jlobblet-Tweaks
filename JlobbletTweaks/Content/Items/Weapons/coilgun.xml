@@ -6,9 +6,8 @@
     <replace sel="//Item[@identifier='coilgunboltpiercing']/Projectile/StatusEffect[@type='OnImpact']/@condition">-50</replace>
     <!-- Buff physicorium ammo -->
     <add sel="//Item[@identifier='physicoriumbolt']/Projectile/@maxtargetstohit">2</add>
-    <add sel="//Item[@identifier='physicoriumbolt']/Projectile">
-        <StatusEffect type="OnImpact" target="This" condition="-50"/>
-    </add>
+    <add sel="//Item[@identifier='physicoriumbolt']/Projectile/StatusEffect[@type='OnImpact']/@condition">-50</add>
+    <remove sel="//Item[@identifier='physicoriumbolt']/Projectile/StatusEffect[@type='OnImpact']/Remove"/>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='coilgunboltpiercing']/Sprite/@texture">Content/Items/Weapons/weapons_new.png</replace>
 </Diff>
