@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Content/Items/Containers/containers.xml" override="all" cleanup="true">
+    <!-- Allow combining coilgun ammo boxes -->
+    <!-- Normal ammo -->
+    <add sel="//Item[@identifier='coilgunammobox']/Holdable/@canBeCombined">true</add>
+    <add sel="//Item[@identifier='coilgunammobox']/Holdable/@removeOnCombined">false</add>
+    <!-- Physicorium -->
+    <add sel="//Item[@identifier='physicoriumammobox']/Holdable/@canBeCombined">true</add>
+    <add sel="//Item[@identifier='physicoriumammobox']/Holdable/@removeOnCombined">false</add>
+    <!-- Explosive -->
+    <add sel="//Item[@identifier='coilgunammoboxexplosive']/Holdable/@canBeCombined">true</add>
+    <add sel="//Item[@identifier='coilgunammoboxexplosive']/Holdable/@removeOnCombined">false</add>
+    <!-- Piercing -->
+    <add sel="//Item[@identifier='coilgunammoboxpiercing']/Holdable/@canBeCombined">true</add>
+    <add sel="//Item[@identifier='coilgunammoboxpiercing']/Holdable/@removeOnCombined">false</add>
+</Diff>
