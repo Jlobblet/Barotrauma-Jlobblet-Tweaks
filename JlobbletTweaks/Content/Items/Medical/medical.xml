@@ -6,6 +6,8 @@
     <replace sel="//*[@identifier='antibleeding1' or @identifier='antibleeding2']/@maxstacksize">8</replace>
     <!-- BUFIX 0.12.0.3: Allow elastin to be combined -->
     <add sel="//*[@identifier='elastin']/Holdable/@canBeCombined">true</add>
+    <!-- Make plastiseal recipe only make 1 -->
+    <replace sel="//*[@identifier='antibleeding2']/Fabricate/@amount">1</replace>
     <!-- Fix sprites -->
     <replace sel="//Sprite/@texture">Content/Items/Medical/Medicines.png</replace>
 </Diff>
