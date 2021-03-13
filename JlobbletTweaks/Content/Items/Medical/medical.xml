@@ -8,6 +8,7 @@
     <add sel="//*[@identifier='elastin']/Holdable/@canBeCombined">true</add>
     <!-- Make plastiseal recipe only make 1 -->
     <replace sel="//*[@identifier='antibleeding2']/Fabricate/@amount">1</replace>
+    <remove sel="//*[@identifier='antibleeding2']/Deconstruct/Item[@identifier='elastin']/@outcondition"/>
     <!-- Fix sprites -->
     <replace sel="//Sprite/@texture">Content/Items/Medical/Medicines.png</replace>
 </Diff>
