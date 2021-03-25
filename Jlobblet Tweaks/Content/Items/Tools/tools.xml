@@ -8,6 +8,13 @@
     <!-- Give syringe gun 4 slots -->
     <replace sel="//Item[@identifier='syringegun']/ItemContainer/@capacity">4</replace>
     <replace sel="//Item[@identifier='syringegun']/ItemContainer/@maxstacksize">1</replace>
+    <!-- Allow toolbelt to be held in both hands -->
+    <remove sel="//Item[@identifier='toolbelt']/Wearable"/>
+    <add sel="//Item[@identifier='toolbelt']">
+        <Holdable slots="RightHand+LeftHand,Bag" msg="ItemMsgPickUpSelect">
+            <sprite name="ToolBelt" texture="Content/Items/Tools/tools.png" sourcerect="256,96,112,64" limb="Torso" inherittexturescale="true" origin="0.5,-0.2" />
+        </Holdable>
+    </add>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='incendiumfueltank']/Sprite/@texture">Content/Items/Tools/tools.png</replace>
 </Diff>
