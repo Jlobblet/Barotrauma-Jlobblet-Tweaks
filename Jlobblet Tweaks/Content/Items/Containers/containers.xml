@@ -19,4 +19,15 @@
         <Item identifier="steel" copycondition="true"/>
         <Item identifier="aluminium"/>
     </replace>
+    <!-- Allow fabricating crates -->
+    <add sel="//Item[contains(@tags,'crate') and not(@identifier='sealedsupplycrate')]">
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredSkill identifier="mechanical" level="40"/>
+            <Item identifier="steel" />
+        </Fabricate>
+    </add>
+    <!-- Fix sprites -->
+    <replace sel="//Item[contains(@tags,'crate') and not(@identifier='sealedsupplycrate')]/Sprite/@texture">
+        Content/Items/Containers/containers.png
+    </replace>
 </Diff>
