@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Jlobblet Tweaks" path="Mods/Jlobblet Tweaks/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2401124009">
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Diving/divinggear.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Tools/tools.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Medical/buffs.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Medical/medical.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Medical/poisons.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Weapons/weapons.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Alien/alienitems.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Weapons/coilgun.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Weapons/railgun.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/CreatureLoot/creatureloot.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Alien/artifacts.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Jobgear/Mechanic/mechanic_gear.xml"/>
+    <Item file="Mods/Jlobblet Tweaks/Content/Items/Containers/containers.xml"/>
+</contentpackage>
