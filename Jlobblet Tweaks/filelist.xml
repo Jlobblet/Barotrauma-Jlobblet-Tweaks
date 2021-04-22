@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Jlobblet Tweaks" path="Mods/Jlobblet Tweaks/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2401124009">
+<contentpackage name="Jlobblet Tweaks" path="Mods/Jlobblet Tweaks/filelist.xml" corepackage="false" gameversion="0.13.0.11" steamworkshopid="2401124009">
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Diving/divinggear.xml"/>
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Tools/tools.xml"/>
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Medical/buffs.xml"/>
