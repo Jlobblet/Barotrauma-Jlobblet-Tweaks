@@ -28,6 +28,8 @@
     </add>
     <!-- BUGFIX 0.13.0.11: Oxygen tank shelves can't contain oxygenite tanks -->
     <replace sel="//Item[contains(@identifier, 'oxygentankshelf')]/ItemContainer/Containable/@items">oxygensource,weldingfuel</replace>
+    <remove sel="//Item[contains(@identifier, 'oxygentankshelf')]/ItemContainer/Containable/StatusEffect/Conditional[@HasTag]"/>
+    <add sel="//Item[contains(@identifier, 'oxygentankshelf')]/ItemContainer/Containable/StatusEffect/@targets">oxygentank</add>
     <!-- Fix sprites -->
     <replace sel="//Item[contains(@tags,'crate') and not(@identifier='sealedsupplycrate')]/Sprite/@texture">Content/Items/Containers/containers.png</replace>
 </Diff>
