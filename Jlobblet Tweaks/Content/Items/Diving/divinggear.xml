@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Diff file="Content/Items/Diving/divinggear.xml" override="all" cleanup="true">
-    <!-- Half oxygen consumption rate to accommodate for not stacking -->
+    <!-- Adjust oxygen durations -->
+    <!-- Make everything last twice as long currently -->
+    <!-- This might make oxygenite shards last too long, will have to see -->
+    <!-- Diving mask -->
     <replace sel="//Item[@identifier='divingmask']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.25</replace>
+    <replace sel="//Item[@identifier='divingmask']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygeniteshard']/@Condition">-0.15</replace>
+    <replace sel="//Item[@identifier='divingmask']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygenitetank']/@Condition">-0.05</replace>
+    <!-- Diving suit -->
     <replace sel="//Item[@identifier='divingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.15</replace>
+    <replace sel="//Item[@identifier='divingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygeniteshard']/@Condition">-0.15</replace>
+    <replace sel="//Item[@identifier='divingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygenitetank']/@Condition">-0.05</replace>
+    <!-- Abyss diving suit -->
+    <replace sel="//Item[@identifier='abyssdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.075</replace>
+    <replace sel="//Item[@identifier='abyssdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygeniteshard']/@Condition">-0.075</replace>
+    <replace sel="//Item[@identifier='abyssdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygenitetank']/@Condition">-0.025</replace>
+    <!-- Combat diving suit -->
+    <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.15</replace>
+    <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygeniteshard']/@Condition">-0.15</replace>
+    <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygenitetank']/@Condition">-0.05</replace>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='divingsuit']//sprite[@texture='DivingSuit_Torso.png']/@texture">Content/Items/Diving/DivingSuit_Torso.png</replace>
     <replace sel="//Item[@identifier='divingsuit']//sprite[@texture='DivingSuit_Legs.png']/@texture">Content/Items/Diving/DivingSuit_Legs.png</replace>
+    <replace sel="//Item[@identifier='abyssdivingsuit']//sprite[@texture='Abyss_DivingSuit_Torso.png']/@texture">Content/Items/Diving/Abyss_DivingSuit_Torso.png</replace>
+    <replace sel="//Item[@identifier='abyssdivingsuit']//sprite[@texture='Abyss_DivingSuit_Legs.png']/@texture">Content/Items/Diving/Abyss_DivingSuit_Legs.png</replace>
+    <replace sel="//Item[@identifier='combatdivingsuit']//sprite[@texture='Combat_DivingSuit_Torso.png']/@texture">Content/Items/Diving/Combat_DivingSuit_Torso.png</replace>
+    <replace sel="//Item[@identifier='combatdivingsuit']//sprite[@texture='Combat_DivingSuit_Legs.png']/@texture">Content/Items/Diving/Combat_DivingSuit_Legs.png</replace>
 </Diff>
