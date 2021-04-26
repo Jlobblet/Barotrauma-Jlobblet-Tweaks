@@ -13,4 +13,8 @@
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Alien/artifacts.xml"/>
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Jobgear/Mechanic/mechanic_gear.xml"/>
     <Item file="Mods/Jlobblet Tweaks/Content/Items/Containers/containers.xml"/>
+	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/EngineeringModule_02_d.sub"/>
+	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/EngineeringModule_02_fd.sub"/>
+	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/MineAirlock_01_d.sub"/>
+	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/ResearchModule_01_f.sub"/>
 </contentpackage>
