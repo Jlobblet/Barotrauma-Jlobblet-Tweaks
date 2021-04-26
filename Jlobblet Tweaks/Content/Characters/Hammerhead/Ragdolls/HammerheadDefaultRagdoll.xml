@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diff file="Content/Characters/Hammerhead/Ragdolls/HammerheadDefaultRagdoll.xml">
+    <!-- Allow hammerheads into the sub -->
+    <replace sel="/Ragdoll/@canentersubmarine">true</replace>
+    <!-- Make them use claw attack more -->
+    <replace sel="//limb[contains(@name,'Claw')]/attack/@priority">1.1</replace>
+    <!-- Buff the boop attacks -->
+    <replace sel="//limb[@name='NoseAttackCharacter']/attack/@cooldown">7</replace>
+    <replace sel="//limb[@name='NoseAttackCharacter']/attack/@secondarycooldown">0</replace>
+    <!-- Edit the sub attack to make them try and quickly board to attack if possible -->
+    <replace sel="//limb[@name='NoseAttackStructure']/attack/@afterattack">FollowThroughUntilCanAttack</replace>
+</Diff>

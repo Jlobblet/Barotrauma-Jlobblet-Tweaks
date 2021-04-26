@@ -17,4 +17,5 @@
 	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/EngineeringModule_02_fd.sub"/>
 	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/MineAirlock_01_d.sub"/>
 	<OutpostModule file="Mods/Jlobblet Tweaks/Content/Map/Outposts/ResearchModule_01_f.sub"/>
+    <Character file="Mods/Jlobblet Tweaks/Content/Characters/Hammerhead/Hammerhead.xml"/>
 </contentpackage>

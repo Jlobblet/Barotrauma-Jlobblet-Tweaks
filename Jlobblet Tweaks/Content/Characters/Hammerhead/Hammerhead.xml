@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diff file="Content/Characters/Hammerhead/Hammerhead.xml" override="root">
+    <!-- Make hammerheads try and get into the sub -->
+    <replace sel="//ai/@aggressiveboarding">True</replace>
+    <!-- So that they can eat people -->
+    <replace sel="//ai/target[@tag='human']/@priority">90</replace>
+    <replace sel="//ai/target[@tag='human']/@reactdistance">5000</replace>
+    <add sel="//ai/target[@tag='human']/@attackdistance">2500</add>
+    <!-- Make them ignore lower priority things when they board -->
+    <add sel="//ai/target[number(@priority) &lt; number(//ai/target[@tag='human']/@priority)]/@IgnoreInside">true</add>
+    <!-- Fix animations folder locations -->
+    <add sel="//animations/@folder">Content/Characters/Hammerhead/Animations/</add>
+</Diff>
