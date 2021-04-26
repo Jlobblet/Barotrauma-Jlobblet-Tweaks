@@ -1,4 +1,17 @@
-[b]Jlobblet Tweaks[/b] is a collection of changes to vanilla items aimed at adjusting the vanilla balance of power.
+[b]Jlobblet Tweaks[/b] is a collection of changes to vanilla aimed at adjusting the vanilla balance of power, and adding convenience.
+
+[h2]New Outpost Modules[/h2]
+Outpost modules with deconstructors and medical fabricators have been added.
+[list]
+  [*] Deconstructors can appear in any outpost.
+  [*] Medical fabricators can appear in research outposts.
+[/list]
+[img]https://steamuserimages-a.akamaihd.net/ugc/1773832151084870587/5A5357A6967554432CA51845998DBD398CEC1725/[/img]
+[img]https://steamuserimages-a.akamaihd.net/ugc/1773832151084871734/E7909AF0EDFF49DC6F22C9179D9308F5469DC7CE/[/img]
+
+[h2]Changes to Monsters[/h2]
+Hammerheads have been changed to make them a bit stronger. They now try to board the submarine to take a bit out of anyone the find, before going back to pummeling it.
+[img]https://steamuserimages-a.akamaihd.net/ugc/1773832151084883102/92D3117B3D7DFF77357A4A3E315BACEE3C1E9DAB/[/img]
 
 [h2]Stacking Changes[/h2]
 Several classes of items have been adjusted to stack to different amounts:
