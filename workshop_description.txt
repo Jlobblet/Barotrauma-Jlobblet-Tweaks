@@ -3,12 +3,19 @@
 [h2]Stacking Changes[/h2]
 Several classes of items have been adjusted to stack to different amounts:
 [list]
+  [*] Re-add multiple slots for shotguns, harpoons guns, revolvers, and the syringe gun.
+[/list]
+[img]https://steamuserimages-a.akamaihd.net/ugc/1755812048654590798/40641C8F6176D4A95E3F0683DD00FCC49F7E554E/[/img]
+[list]
   [*] Medical items such as poisons, buffs, and healing items now stack to 4.
-  [*] Oxygen, oxygenite, welding, and incendium tanks stack to 1. Oxygen tanks last twice as long in diving suits and diving masks to accommodate this change/
+  [list]
+    [*] Bandages and plastiseal still stack to 8.
+  [/list]
+  [*] Oxygen, oxygenite, welding, and incendium tanks stack to 1. Oxygen sources last twice as long in all diving suits and diving masks to accommodate this change.
   [*] Ammo stacks to various amounts. [list]
     [*] Revolver rounds stack to 24
     [*] Grenades stack to 4
-    [*] Shotgun shells stack to 18
+    [*] Shotgun shells stack to 12
     [*] Stun gun darts stack to 6
     [*] Harpoons stack to 6
   [/list]
@@ -20,6 +27,24 @@ Railguns have been significantly buffed. Normal and physicorium shells can now p
 Piercing ammo has been nerfed and physicorium ammo has been buffed to make the harder to acquire ammo more powerful.
 
 The alien pistol has been souped up to give it a bit more of a punch.
+
+[h2]Misc[/h2]
+Alien artifacts roll less - they shouldn't yeet themselves off cliffs [i]quite[/i] so readily, but they can still roll a bit.
+
+Mechanic jumpsuits now offer lacerations resistance instead of burns resistance, in line with the damage caused by mechanical repairs.
+
+Coilgun ammo can now be combined.
+[img]https://steamuserimages-a.akamaihd.net/ugc/1750184290441814193/68875AE5177C6F9DAE43D36FFA81A357A669617E/[/img]
+
+Add crafting recipes to metal crates.
+[img]https://steamuserimages-a.akamaihd.net/ugc/1773831778925725575/5BEAE587256DF0E3BA7C7D143157FD247983D274/[/img]
+
+Plastiseal only makes 1 per craft to account for its deconstruction recipe.
+
+Explosive harpoons can now be deconstructed into a harpoon and a C4 block.
+
+[h2]Into the Abyss Compatibility[/h2]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2410930451
 
 [h2]Special Thanks[/h2]
 Special thanks to Soup Girl for helping with the mod preview image.
