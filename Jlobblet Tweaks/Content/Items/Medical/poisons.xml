@@ -4,4 +4,6 @@
     <replace sel="//*/@maxstacksize">4</replace>
     <!-- Fix sprites -->
     <replace sel="//Sprite/@texture">Content/Items/Medical/Medicines.png</replace>
+    <!-- Bufotoxin is special -->
+    <replace sel="//Bufotoxin/Sprite/@texture">Content/Characters/Pets/pets.png</replace>
 </Diff>
