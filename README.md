@@ -1,6 +1,6 @@
 # JlobbletTweaks
 
-Minor tweaks for Barotrauma patch 0.13.0.11.
+Minor tweaks for Barotrauma patch 0.13.3.11.
 
 This repository is input for the [Barotrauma Mod Generator](https://github.com/Jlobblet/Barotrauma-Mod-Generator).
 
