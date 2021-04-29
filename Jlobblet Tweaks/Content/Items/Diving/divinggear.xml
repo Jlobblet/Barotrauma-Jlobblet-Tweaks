@@ -19,6 +19,8 @@
     <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygentank']/@Condition">-0.15</replace>
     <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygeniteshard']/@Condition">-0.15</replace>
     <replace sel="//Item[@identifier='combatdivingsuit']//StatusEffect[@type='OnWearing' and RequiredItem/@items='oxygenitetank']/@Condition">-0.05</replace>
+    <!-- BUGFIX 0.13.3.11: Make diving suits refill anything with refillableoxygensource tag -->
+    <replace sel="//Item[contains(@identifier, 'divingsuit')]/Wearable/StatusEffect[@type='OnContained']/RequiredItem/@items">refillableoxygensource</replace>
     <!-- Fix sprites -->
     <replace sel="//Item[@identifier='divingsuit']//sprite[@texture='DivingSuit_Torso.png']/@texture">Content/Items/Diving/DivingSuit_Torso.png</replace>
     <replace sel="//Item[@identifier='divingsuit']//sprite[@texture='DivingSuit_Legs.png']/@texture">Content/Items/Diving/DivingSuit_Legs.png</replace>
