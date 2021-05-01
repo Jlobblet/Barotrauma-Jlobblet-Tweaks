@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diff file="Content/Items/Electricity/signalitems.xml" override="all" cleanup="true">
+    <!-- Allow fabricating single wires -->
+    <add sel="//Item[contains(@identifier, 'wire') and Fabricate]">
+        <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+            <RequiredItem identifier="copper" mincondition="0.2"/>
+            <RequiredItem identifier="rubber" mincondition="0.2"/>
+        </Fabricate>
+    </add>
+    <!-- Fix sprites -->
+    <replace sel="//Item[contains(@identifier, 'wire') and Fabricate]/Sprite/@texture">Content/Items/Electricity/signalcomp.png</replace>
+</Diff>
