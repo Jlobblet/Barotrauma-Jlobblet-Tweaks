@@ -13,12 +13,6 @@
     <!-- Piercing -->
     <add sel="//Item[@identifier='coilgunammoboxpiercing']/Holdable/@canBeCombined">true</add>
     <add sel="//Item[@identifier='coilgunammoboxpiercing']/Holdable/@removeOnCombined">false</add>
-    <!-- Fix physicorium box deconstruction recipe -->
-    <replace sel="//Item[@identifier='physicoriumammobox']/Fabricate">
-        <Item identifier="physicorium" copycondition="true"/>
-        <Item identifier="steel" copycondition="true"/>
-        <Item identifier="aluminium"/>
-    </replace>
     <!-- Allow fabricating crates -->
     <add sel="//Item[contains(@tags,'crate') and not(@identifier='sealedsupplycrate')]">
         <Fabricate suitablefabricators="fabricator" requiredtime="30">
